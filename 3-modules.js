@@ -3,7 +3,7 @@
 //Modules are encapsulated code (only share minimum)
 const john = "John"
 
-const sayHi = (name)=>{
+const sayHi = (name) => {
     console.log(`Hello name ${name}`);
 }
 
