@@ -1,11 +1,10 @@
 //Modules in Node.JS uses CommonJS
+//Modules are encapsulated code (only share minimum, we only share what we want)
 
-//Modules are encapsulated code (only share minimum)
-const john = "John"
+//Own Module uses ./
+//Third Party Module starts with only one single quotation mark.
+const names = require('./4-names.js');
+const sayHi = require('./5-utils.js');
 
-const sayHi = (name) => {
-    console.log(`Hello name ${name}`);
-}
-
-sayHi('Susan');
-sayHi("John");
+// console.log(names);
+sayHi(names.john);
