@@ -3,6 +3,7 @@ const { readFile, writeFile } = require('fs');
 //After an event is done, we run a call back function.
 
 //Callback Hell
+console.log('starting');
 readFile(
     './content/first.txt', 
     'utf-8',
@@ -28,7 +29,7 @@ readFile(
                                 if (err){
                                     console.log(err);
                                 } else {
-                                    console.log(result);
+                                    console.log('done with the task');
                                 }
                             }
                         )
@@ -38,3 +39,4 @@ readFile(
         }
     }
 );
+console.log('starting another new task');
