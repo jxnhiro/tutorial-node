@@ -5,6 +5,10 @@
 //Third Party Module starts with only one single quotation mark.
 const names = require('./4-names.js');
 const sayHi = require('./5-utils.js');
+const data = require('./6-alternative.js');
 
-// console.log(names);
-sayHi(names.john);
+require('./7-mindgrenade.js');
+
+// sayHi(names);
+// sayHi(names.john);
+

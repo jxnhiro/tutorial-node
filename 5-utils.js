@@ -4,6 +4,6 @@ const sayHi = (name) => {
 }
 
 module.exports = sayHi
-
+// export default sayHi;
 //If only single, export it in a single variable.
 //If more than one, export it in objects.
