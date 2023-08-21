@@ -26,3 +26,17 @@ const _ = require('lodash');
 const items = [1,[2,[3,[4]]]];
 const newItems = _.flattenDeep(items);
 console.log(newItems);
+
+/**
+ * To run someone's repo with dependencies,
+ * we use npm install first.
+ * NPM checks for dependencies in the package.json
+ * and automatically setup the node_modules folder.
+ */
+
+/**
+ * Dev Dependencies
+ * npm i <packageName> -D 
+ */
+
+// To uninstall, use npm uninstall <packageName>
